@@ -10,7 +10,7 @@ export default withMermaid(
         title: "Tchooz - Documentation",
         description: "A website to learn how to develop on Tchooz project",
         srcDir: 'src',
-        base: '/docs/',
+        base: '/tchooz-docs/',
         lang: 'en-GB',
         head: [
             ['link',
