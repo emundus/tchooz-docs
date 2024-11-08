@@ -5,6 +5,10 @@
     --vp-c-brand-3: #20835F;
 }
 
+.title span.nav-bar-title-text {
+    display: none;
+}
+
 .VPHome, .VPDoc {
     background-image: url("/corner-top-right-background.png");
     background-size: 40%;
