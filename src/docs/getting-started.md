@@ -6,6 +6,9 @@ outline: deep
 
 [[toc]]
 
+## Resources
+- [Understanding Docker - French](https://www.youtube.com/watch?v=caXHwYC3tq8&ab_channel=Cookieconnect%C3%A9)
+
 ## Presentation
 Manage your application campaigns and calls for proposals simply
 
@@ -27,6 +30,8 @@ Manage your application campaigns and calls for proposals simply
 * Windows : You can use [XAMPP](https://www.apachefriends.org/index.html) or [WAMP](https://www.wampserver.com/en/)
 
 ### NodeJS
+Node is an open-source, multi-platform runtime environment that allows developers to create all kinds of server-side applications and tools in JavaScript. This environment is designed to be used outside the browser (it runs directly on the user's computer or in the server's operating system). As a result, Node does not allow you to use the JavaScript APIs linked to the browser, but rather APIs that are more traditionally used on a server, such as those for HTTP or file system manipulation.
+
 [![Node][Node-min-badge]][Node-url]
 
 [![Node][Node-reco-badge]][Node-url]

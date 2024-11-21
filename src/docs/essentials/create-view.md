@@ -95,5 +95,5 @@ Here is an example of content for `default.xml` :
 
 `COM_EMUNDUS_HELLO_VIEW_DEFAULT_TITLE` et `COM_EMUNDUS_HELLO_VIEW_DEFAULT_DESC` are translation tags that must be added to the language files located in the `administrator/components/com_emundus/language/`
 
-## Tester ma vue
+## Test the view
 Now that your eyesight is ready, you can [create a Joomla! menu link](https://docs.joomla.org/J3.x:Adding_a_new_menu/fr) to view it.

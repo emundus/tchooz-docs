@@ -28,7 +28,6 @@ export default withMermaid(
                         {text: 'Getting started', link: '/docs/getting-started'},
                         {text: 'Essentials', link: '/docs/essentials'},
                         {text: 'Glossary', link: '/docs/glossary'},
-                        {text: 'Migration from v6', link: '/docs/migration-from-v6'},
                     ]
                 },
                 {
@@ -101,17 +100,35 @@ export default withMermaid(
                                 ]
                             },
                             {
-                                text: 'Tailwind',
-                                link: 'docs/front/tailwind'
+                                text: 'eMundus',
+                                items: [
+                                    {
+                                        text: 'Adding methods',
+                                        link: 'docs/essentials/emundus/add-methods'
+                                    },
+                                    {
+                                        text: 'Frequently asked questions',
+                                        link: 'docs/essentials/emundus/faq'
+                                    }
+                                ]
                             },
                             {
-                                text: 'Create a Vue component',
-                                link: 'docs/front/create-component'
+                                text: 'Frontend',
+                                items: [
+                                    {
+                                        text: 'Tailwind',
+                                        link: 'docs/front/tailwind'
+                                    },
+                                    {
+                                        text: 'Create a Vue component',
+                                        link: 'docs/front/create-component'
+                                    },
+                                    {
+                                        text: 'Wysiwyg',
+                                        link: 'docs/front/wysiwyg'
+                                    }
+                                ]
                             },
-                            {
-                                text: 'Wysiwyg',
-                                link: 'docs/front/wysiwyg'
-                            }
                         ],
                     },
                     {
@@ -154,6 +171,10 @@ export default withMermaid(
                             {
                                 text: 'Standalone installation',
                                 link: 'docs/extra/standalone-installation'
+                            },
+                            {
+                                text: 'Some reminders',
+                                link: 'docs/extra/some-reminders'
                             },
                         ]
                     },
