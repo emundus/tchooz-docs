@@ -29,5 +29,9 @@ features:
     details: This module allows managers to create and manage workflows for their applicants. A workflow is a series of steps that an applicant must complete in order to apply for a position. Managers can define the steps, assign them to different users, and track the progress of each applicant through the workflow.
     icon: 🔀
     link: /docs/features/workflow-builder
+  - title: Messenger
+    details: This module allows to send messages between an applicant and managers. It is used to communicate with the applicant about the candidate's application.
+    icon: 📧
+    link: /docs/features/messenger
 ---
 
