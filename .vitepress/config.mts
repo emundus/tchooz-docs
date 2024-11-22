@@ -158,6 +158,10 @@ export default withMermaid(
                             {
                                 text: 'Workflow Builder',
                                 link: 'docs/features/workflow-builder'
+                            },
+                            {
+                                text: 'Messenger',
+                                link: 'docs/features/messenger'
                             }
                         ]
                     },
