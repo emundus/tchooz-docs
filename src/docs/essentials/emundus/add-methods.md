@@ -14,8 +14,11 @@ Below is a typical :
 
         // Check if the user has the necessary rights to access this method
         // $this->user ou $this->_user is always available in a controller
-        if (EmundusHelperAccess::asPartnerAccessLevel($this->_user->id)) 
+        if (!EmundusHelperAccess::asPartnerAccessLevel($this->_user->id)) 
         {
+            header('HTTP/1.1 403 Forbidden');
+        } 
+        else {
             // Use $this->input to retrieve the data sent by the client
             // getArray() returns an associative array of the data sent
             $data = $this->input->getArray();

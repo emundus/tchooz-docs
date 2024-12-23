@@ -75,31 +75,6 @@ export default withMermaid(
                         text: 'Essentials',
                         items: [
                             {
-                                text: 'Joomla!',
-                                items: [
-                                    {
-                                        text: 'Create a view',
-                                        link: 'docs/essentials/create-view'
-                                    },
-                                    {
-                                        text: 'Create a module',
-                                        link: 'docs/essentials/create-module'
-                                    },
-                                    {
-                                        text: 'Create a plugin',
-                                        link: 'docs/essentials/create-plugin'
-                                    },
-                                    {
-                                        text: 'Understanding database',
-                                        link: 'docs/essentials/database'
-                                    },
-                                    {
-                                        text: 'Event handling',
-                                        link: 'docs/essentials/event-handling'
-                                    }
-                                ]
-                            },
-                            {
                                 text: 'eMundus',
                                 items: [
                                     {
@@ -117,34 +92,73 @@ export default withMermaid(
                                 items: [
                                     {
                                         text: 'Tailwind',
-                                        link: 'docs/front/tailwind'
+                                        link: 'docs/essentials/front/tailwind'
                                     },
                                     {
                                         text: 'Create a Vue component',
-                                        link: 'docs/front/create-component'
+                                        link: 'docs/essentials/front/create-component'
                                     },
                                     {
                                         text: 'Wysiwyg',
-                                        link: 'docs/front/wysiwyg'
+                                        link: 'docs/essentials/front/wysiwyg'
                                     }
                                 ]
                             },
                         ],
                     },
                     {
-                        text: 'Fabrik',
+                        text: 'Integration',
                         items: [
                             {
-                                text: 'Understanding Fabrik',
-                                link: 'docs/fabrik/understanding-fabrik'
+                                text: 'Joomla!',
+                                items: [
+                                    {
+                                        text: 'Create a view',
+                                        link: 'docs/integration/create-view'
+                                    },
+                                    {
+                                        text: 'Create a module',
+                                        link: 'docs/integration/create-module'
+                                    },
+                                    {
+                                        text: 'Create a plugin',
+                                        link: 'docs/integration/create-plugin'
+                                    },
+                                    {
+                                        text: 'Understanding database',
+                                        link: 'docs/integration/database'
+                                    },
+                                    {
+                                        text: 'Event handling',
+                                        link: 'docs/integration/event-handling'
+                                    }
+                                ]
                             },
+                            /*{
+                                text: 'Fabrik',
+                                items: [
+                                    {
+                                        text: 'Understanding Fabrik',
+                                        link: 'docs/integration/fabrik/understanding-fabrik'
+                                    },
+                                    {
+                                        text: 'Create a plugin',
+                                        link: 'docs/integration/fabrik/create-plugin'
+                                    },
+                                    {
+                                        text: 'Javascript',
+                                        link: 'docs/integration/fabrik/javascript'
+                                    }
+                                ]
+                            },*/
                             {
-                                text: 'Create a plugin',
-                                link: 'docs/fabrik/create-plugin'
-                            },
-                            {
-                                text: 'Javascript',
-                                link: 'docs/fabrik/javascript'
+                                text: 'Authentication directories',
+                                items: [
+                                    {
+                                        text: 'SAML',
+                                        link: 'docs/integration/authentication-directories/saml'
+                                    },
+                                ]
                             }
                         ]
                     },
@@ -176,10 +190,10 @@ export default withMermaid(
                                 text: 'Standalone installation',
                                 link: 'docs/extra/standalone-installation'
                             },
-                            {
+                            /*{
                                 text: 'Some reminders',
                                 link: 'docs/extra/some-reminders'
-                            },
+                            },*/
                         ]
                     },
                 ],
